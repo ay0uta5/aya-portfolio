@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aya Jebari – Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="hero">
+        <div class="hero-text">
+          <div class="hero-kicker">Portfolio</div>
+          <h1>Creative & Technical Projects by <span>Aya Jebari</span></h1>
+          <p class="hero-subtitle">
+            Computer Science student exploring human–computer interaction, speculative futures,
+            AI, IoT and creative coding. These projects sit at the intersection of technology,
+            experience design and critical thinking.
+          </p>
+          <div class="hero-meta">
+            <div class="hero-tag">
+              <span class="hero-tag-dot"></span>
+              <span>Available for graduate roles</span>
+            </div>
+            <div class="hero-tag">
+              <span>London &amp; open to relocation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="inner">
+      <!-- Mini previews section -->
+      <section class="mini-section">
+        <div class="mini-header">
+          <h2>Quick project previews</h2>
+          <p>Tap a card to jump to the full description and see more detail.</p>
+        </div>
+
+        <div class="mini-grid">
+          <a href="#focuspod" class="mini-card">
+            <span>HCI / Creative Tech</span>
+            <h3>FocusPod – Anti-Distraction Bubble</h3>
+            <p>Audio-reactive focus environment with early eye-tracking experiments.</p>
+          </a>
+
+          <a href="#escape-room" class="mini-card">
+            <span>IoT / Systems</span>
+            <h3>Virtual Escape Room with IoT Sensors</h3>
+            <p>Physical sensors wired into a browser-based escape room narrative.</p>
+          </a>
+
+          <a href="#avatar-customiser" class="mini-card">
+            <span>Front-End / UX</span>
+            <h3>“Maisha &amp; Aya’s Customisation”</h3>
+            <p>3D avatar viewer and customisation page styled like a real product launch.</p>
+          </a>
+
+          <a href="#ai-perception" class="mini-card">
+            <span>AI / Computer Vision</span>
+            <h3>AI Perception / Style Transfer</h3>
+            <p>Real-time transformation exploring AI as a filter on perception.</p>
+          </a>
+
+          <a href="#mood-visuals" class="mini-card">
+            <span>Creative Coding</span>
+            <h3>Mood / Emotion-Based Visuals</h3>
+            <p>Generative sketches where colour and motion follow simple inputs.</p>
+          </a>
+
+          <a href="#liveline" class="mini-card">
+            <span>Speculative HCI</span>
+            <h3>“Liveline: The Moral Gauntlet”</h3>
+            <p>2099 game-show system critiquing digital escapism and inequality.</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Full project details -->
+      <section class="projects-section">
+        <h2 class="projects-title">Full project details</h2>
+
+        <div class="projects">
+          <!-- Project 1 -->
+          <article class="project-card" id="focuspod">
+            <div class="project-index">Project 01</div>
+            <h2>FocusPod – Anti-Distraction Bubble</h2>
+            <div class="project-type">
+              <span class="project-type-dot"></span>
+              <span>HCI / Creative Tech Group Project</span>
+            </div>
+            <p class="project-tech">
+              <strong>Tech:</strong> HTML, CSS, JavaScript, p5.js, MediaPipe FaceMesh
+            </p>
+            <p class="project-desc">
+              FocusPod is an interactive “focus bubble” that responds to noise levels in the room
+              using audio-reactive visuals. We experimented with MediaPipe FaceMesh to explore
+              basic eye-tracking, detecting when the user looks away from the screen and thinking
+              about how systems might gently encourage focus without feeling punitive.
+              Across three design iterations we gathered feedback, refined the visual language and
+              adjusted interactions to feel calmer and less distracting.
+            </p>
+            <p class="project-role">
+              I worked on concept development, scoped tasks and milestones, helped implement the
+              visuals in p5.js, and organised user testing and documentation.
+            </p>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" id="escape-room">
+            <div class="project-index">Project 02</div>
+            <h2>Virtual Escape Room with IoT Sensors</h2>
+            <div class="project-type">
+              <span class="project-type-dot"></span>
+              <span>Systems / IoT Group Project</span>
+            </div>
+            <p class="project-tech">
+              <strong>Tech:</strong> p5.js, Python/Flask, MQTT, ESP32, sensors
+            </p>
+            <p class="project-desc">
+              This project combined a narrative-driven virtual escape room with physical IoT
+              interactions. Sensor data from an ESP32 (buttons, motion etc.) was sent via MQTT
+              to a Flask backend and then into a browser-based interface built with p5.js.
+              Players interact with physical props to unlock digital clues, blending the digital
+              and physical environment and raising questions about immersion and embodiment.
+            </p>
+            <p class="project-role">
+              I helped break the brief into puzzles and milestones, coordinated work between the
+              software and hardware sides, contributed to debugging, and supported demo preparation.
+            </p>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" id="avatar-customiser">
+            <div class="project-index">Project 03</div>
+            <h2>“Maisha &amp; Aya’s Customisation” – 3D Avatar Customiser</h2>
+            <div class="project-type">
+              <span class="project-type-dot"></span>
+              <span>Front-End / UX Project</span>
+            </div>
+            <p class="project-tech">
+              <strong>Tech:</strong> HTML, CSS, JavaScript, &lt;model-viewer&gt;, GLB 3D models
+            </p>
+            <p class="project-desc">
+              A scrollable web experience allowing users to view and interact with 3D avatars
+              in the browser. Using the &lt;model-viewer&gt; component, the page displays GLB
+              character models with simple rotation/zoom controls. The layout is styled like a
+              product launch page with a hero banner, sections explaining features, and clear calls
+              to action, exploring how avatar customisation can be framed as both playful and
+              identity-forming.
+            </p>
+            <p class="project-role">
+              I designed the page layout and visual style, implemented the front-end, and focused
+              on making the interactions feel understandable for non-technical users.
+            </p>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" id="ai-perception">
+            <div class="project-index">Project 04</div>
+            <h2>AI Perception / Style Transfer Project</h2>
+            <div class="project-type">
+              <span class="project-type-dot"></span>
+              <span>AI / Computer Vision Project</span>
+            </div>
+            <p class="project-tech">
+              <strong>Tech:</strong> Python, PyTorch, OpenCV
+            </p>
+            <p class="project-desc">
+              This project explores how neural networks mediate what we see. A TransformNet /
+              ResNet18-based model processes live video frames and outputs a visually altered
+              version in real time, effectively acting as an AI “lens” over the world. The work
+              sits between style transfer and critical HCI, looking at the implications of having
+              AI sit between us and our perception of reality.
+            </p>
+            <p class="project-role">
+              I implemented model loading, cleaned state_dict keys, handled CPU/GPU device logic,
+              wired up the OpenCV capture pipeline, and documented the input → model → output
+              flow alongside the HCI framing.
+            </p>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card" id="mood-visuals">
+            <div class="project-index">Project 05</div>
+            <h2>Mood / Emotion-Based Visual Experiments</h2>
+            <div class="project-type">
+              <span class="project-type-dot"></span>
+              <span>Creative Coding Experiments</span>
+            </div>
+            <p class="project-tech">
+              <strong>Tech:</strong> p5.js, JavaScript
+            </p>
+            <p class="project-desc">
+              A series of small creative coding sketches where colour palettes, motion and simple
+              input parameters shift the “mood” of generative visuals. These experiments explore
+              how interface aesthetics and motion can change the emotional tone of a screen-based
+              experience and served as quick prototypes to inform larger HCI projects.
+            </p>
+            <p class="project-role">
+              I designed and coded the sketches, iterating quickly to test different visual ideas
+              and documenting what felt calming, playful or overwhelming.
+            </p>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card" id="liveline">
+            <div class="project-index">Project 06</div>
+            <h2>Speculative HCI – “Liveline: The Moral Gauntlet”</h2>
+            <div class="project-type">
+              <span class="project-type-dot"></span>
+              <span>Speculative Design / HCI Group Project</span>
+            </div>
+            <p class="project-tech">
+              <strong>Medium:</strong> Concept, narrative, interface mockups, multimedia presentation
+            </p>
+            <p class="project-desc">
+              Set in 2099, Liveline imagines a dystopian game-show style system where people
+              navigate moral choices under public scrutiny, critiquing digital escapism,
+              inequality and gamified survival. The project takes inspiration from early MUDs
+              and online worlds, asking how future interfaces might formalise and reward certain
+              behaviours while marginalising others.
+            </p>
+            <p class="project-role">
+              I co-developed the concept and narrative structure, contributed to the interface
+              ideas and visual language, and helped shape the final multimedia presentation that
+              tied the speculative world, ethics and interaction design together.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <span>© <span id="year"></span> Aya Jebari. All rights reserved.</span>
+        <span>Contact: <a href="mailto:jebariaya6@gmail.com">jebariaya6@gmail.com</a></span>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
